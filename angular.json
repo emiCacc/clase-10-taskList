@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "clase-10-taskList:build:production"
+              "buildTarget": "clase-10-taskList:build:production"
             },
             "development": {
-              "browserTarget": "clase-10-taskList:build:development"
+              "buildTarget": "clase-10-taskList:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "clase-10-taskList:build"
+            "buildTarget": "clase-10-taskList:build"
           }
         },
         "test": {
